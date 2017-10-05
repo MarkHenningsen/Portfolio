@@ -1,0 +1,231 @@
+﻿body {
+    height: 100%;
+    font-family: 'roboto', sans-serif;
+    background-color: #363636;
+    overflow-x:hidden;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+
+.my_nav {
+    background-color: #363636;
+    padding-bottom: 1.5em;
+    position: fixed;
+    width:100%;
+    
+
+}
+
+    .my_nav a {
+        color: #fff;
+        margin-top: 1.5em;
+
+    }
+
+
+
+#bg {
+    background: url('img/bg.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+.full_section {
+    height: 100vh;
+}
+
+
+.nav.navbar-nav.navbar-right > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.00);
+    text-decoration:underline;
+}
+
+.center {
+    text-align:center;
+}
+
+h1, h2 {
+    color: #fff;
+    text-shadow: 3px 2px 1px #000;
+}
+
+
+h2 {
+    font-size: 300%;
+}
+
+span.icon-bar{
+    background-color:#eee;
+}
+
+button.navbar-toggle {
+    border: 1px solid #eee;
+    margin-top: 2em;
+}
+
+
+
+
+
+.background_light {
+    background-color: rgba(43, 43, 43, 0.7);
+    
+}
+
+h3 {
+    margin-top:10%;
+    font-size:300%;
+}
+
+h2.center.section_space {
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+
+hr.skiller {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    width: 30%;
+    margin:0 auto;
+    margin-top:6em;
+}
+
+a {
+    color:white;
+}
+
+.about_me {
+    max-width: 63em;
+    height: 46em;
+    background-color: rgba(221, 189, 160, 0.85);
+    margin-top: 3.5em;
+}
+
+
+.picture {
+    margin-top: 3.5em;
+    text-shadow: 3px 2px 2px #000;
+    width: 66%;
+}
+
+img.picture.img-responsive {
+    max-width: 370px;
+}
+
+.about_space {
+    margin-top: 8em;
+}
+
+
+/*//medium + screen sizes---- Skærm over 992px fjerner den indhold*/
+@media (min-device-width:992px) {
+    .mobile-only {
+        display: none !important;
+        max-height: 0;
+        overflow: hidden;
+    }
+}
+
+/*//small screen sizes ---- Skærm under 768px fjerner den indhold*/
+@media (max-device-width: 768px) {
+    .desktop-only {
+        display: none !important;
+        max-height: 0;
+        overflow: hidden;
+    }
+}
+
+.contact {
+    background-color: #f3f3f3;
+    margin-top: 15em;
+    padding-bottom: 2em;
+}
+
+.footer_above {
+    background-color: #212020;
+    color: #ddd;
+}
+
+.footer_above h3{
+    font-weight:bold;
+    font-size:2em;
+}
+
+.footer_below {
+    background-color: #1a1919;
+    color:#ddd;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+.social img {
+    margin:1em;
+    margin-top:2em;
+}
+
+
+
+
+.forsideoverskrift{
+    padding-top: 10%;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%
+}
+
+.project_1 {
+    background-color: #787878;
+    padding: 0.5em;
+    margin: 0.2em;
+}
+
+.project_2 {
+    background-color: #adc5cd;
+    padding: 0.5em;
+    margin:0.2em;
+}
+
+.project_3 {
+    background-color: #ff9651;
+    padding: 0.5em;
+    margin: 0.2em;
+}
+
+.project_4 {
+    background-color: #cbc6c3;
+    padding: 0.5em;
+    margin: 0.2em;
+}
+
+.project_1 h2{
+    font-size:1.5em;
+    text-shadow:none;
+}
+
+.project_2 h2 {
+    font-size: 1.5em;
+    text-shadow: none;
+}
+
+.project_3 h2 {
+    font-size: 1.5em;
+    text-shadow: none;
+}
+
+.project_4 h2 {
+    font-size: 1.5em;
+    text-shadow: none;
+}
+
+.navbar-brand {
+    padding: 0px 15px;
+}
+
+.contact_space {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
